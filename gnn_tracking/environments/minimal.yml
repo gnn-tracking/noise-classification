@@ -1,0 +1,17 @@
+name: gnn
+channels:
+  - pyg
+  - pytorch
+  - ostrokach-forge
+  - conda-forge
+  - scikit-learn
+dependencies:
+  - python >= 3.10
+  - pytorch >= 2
+  - pyg >= 2.3.0
+  - optuna
+  - numpy
+  - pandas
+  - scikit-learn
+  - pip
+  - pytorch-cluster
